@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Ex 5</title>
+    <meta charset="utf=8">
+</head>
+<body>
+    <script>
+        var aprovados = 0;
+        var reprovados = 0;
+        var i;
+        for (i = 1; i<=10; i++) {
+            var prova = prompt ("Digite a nota da prova(1 ou 2)");
+            if (prova == 1) {
+                aprovados = aprovados + 1;
+             } else if (prova == 2) {
+                reprovados = reprovados + 1;
+             }
+            }
+        alert ("O número de aprovados é " + aprovados + " e o número de reprovados é " + reprovados);
+        if (aprovados >=8) {
+            alert ("Bonus to instructor!");
+        }
+    </script>
+</body>
+</html>

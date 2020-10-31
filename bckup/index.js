@@ -1,1 +1,6 @@
-console.log(Este é um teste para a branch!)
+//Isso é um Hello World simples
+var hello = 'Hello World';
+let ola = 'Olá mundo';
+const mensagem = 'Queremos conflito';
+
+console.log (hello);
